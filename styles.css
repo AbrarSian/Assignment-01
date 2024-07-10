@@ -371,3 +371,96 @@ margin-top: 24px;
 }
 /*part-4 ends here*/
 /*part-5 stars here*/
+.part-5{
+    position: relative;
+    width: 1140px;
+    height: 313px;
+    left: 148px;
+    right: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    background-image: url(./assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    }
+.forget-everything{
+position: static;
+width: 1044px;
+height: 185px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.txt10{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.txt11{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 16px;
+opacity: 0.7;
+}
+.forget-everything-2{
+position: static;
+width: 684px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.size1{
+position: static;
+width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.size2{
+position: static;
+width: 120px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
