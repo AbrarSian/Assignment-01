@@ -13,7 +13,7 @@
                 <img class="pic-1" src="./assets/Group.png" alt="A boy who is coding">
                 <h1 class="txt1">"In the near future, I hope to become a Developer."</h1>
                 <p class="txt2">In sha allah ,in the near future,i can withstand from all types of pressure and will make myself a good developer. Moreover,i will become a good person with a helping heart.</p>
-                <button class="fun-with-btn">Contact with me</button>
+                <button onclick="scrollToBottom()" type="button" class="fun-with-btn">Contact with me</button>
             </div>
         </section>
     </header>
@@ -29,7 +29,7 @@
                         <div class="lefty1">
                             <h3 class="txt5">I will Do Coding and Change The World</h3>
                             <p class="txt6">for that reason i always need to practice a lot...Time for practicing</p>
-                            <span class="typo1">Learn More</span>
+                            <button type="button" class="typo1"><a href="" target="_blank" class="targetting-a">Learn More</a></button>
                         </div>
                         <div class="righty1"></div>
                     </div>
@@ -40,7 +40,7 @@
                         <div class="righty2">
                             <h3 class="txt5">I will help People by creating Modern Web System</h3>
                             <p class="txt6">I can help people by learning the web development...So keep patience....</p>
-                            <span class="typo1">Learn More</span>
+                            <button type="button" class="typo1"><a href="" target="_blank" class="targetting-a">Learn More</a></button>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         <div class="lefty1">
                             <h3 class="txt5">I will Do Coding and Change The World</h3>
                             <p class="txt6">No more today...I am really busy making this website...so pardon me </p>
-                            <span class="typo1">Learn More</span>
+                            <button type="button" class="typo1"><a href="" target="_blank" class="targetting-a">Learn More</a></button>    
                         </div>
                         <div class="righty3"></div>
                     </div>               
@@ -76,7 +76,7 @@
                         <img class="pic-2" src="./assets/html.png" alt="logo of html">
                         <h4 class="txt7">HTML</h4>
                         <p class="txt8">HyperText Markup Language (HTML) is the standard markup language.</p>
-                        <span class="txt9">Learn More</span>
+                        <span class="txt9"><a href="" target="_blank" class="targetting-a">Learn More</a></span>
                     </div>
                 </div>
                 <div class="flex2">
@@ -84,7 +84,7 @@
                         <img class="pic-2" src="./assets/css.png" alt="logo of css">
                         <h4 class="txt7">CSS</h4>
                         <p class="txt8">Cascading Style Sheet is known as a framework to designed the HTML file.</p>
-                        <span class="txt9">Learn More</span>
+                        <span class="txt9"><a href="" target="_blank" class="targetting-a">Learn More</a></span>
                     </div>
                 </div>
                 <div class="flex3">
@@ -92,7 +92,7 @@
                         <img class="pic-2" src="./assets/js.png" alt="logo of js">
                         <h4 class="txt7">JAVASCRIPT</h4>
                         <p class="txt8">Javascript is nothing just a third module while learning web development.</p>
-                        <span class="txt9">Learn More</span>
+                        <span class="txt9"><a href="" target="_blank" class="targetting-a">Learn More</a></span>
                     </div>
                 </div>
             </div>
@@ -108,6 +108,27 @@
             </div>
         </section>
     </body>
-    <footer></footer>
+    <footer class="last-part">
+        <section class="last-part-2">
+            <p class="txt12">An Open Commitment by Sadat Abrar</p>
+            <ul class="fl1">
+                <li><a href="https://www.facebook.com/raya.zibran" target="_blank">
+                    <img src="./assets/facebook.png" alt="facebook" style="width:px;height:28px;">
+                    </a></li>
+                <li><a href="https://github.com/AbrarSian" target="_blank">
+                    <img src="./assets/github.png" alt="github" style="width:px;height:28px;">
+                    </a></li>
+                <li><a href="https://bd.linkedin.com/in/a-s-m-abrar-sian-083573218?original_referer=https%3A%2F%2Fwww.bing.com%2F" target="_blank">
+                    <img src="./assets/linkedin-icon 1.png" alt="linkedin-icon" style="width:px;height:28px;">
+                    </a></li>
+            </ul>
+        </section>
+        <a id="bottom"></a>
+        <script>
+            function scrollToBottom() {
+                document.getElementById("bottom").scrollIntoView();
+            }
+        </script>
+    </footer>
 </body>
 </html>
