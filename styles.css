@@ -16,7 +16,7 @@
     
 }
 .part-1{
-    position: absolute; 
+    position: relative;
     width: 998px;
     height: 581px;
     left: 221px;
@@ -223,14 +223,13 @@ background-repeat: no-repeat;
 /*second part ends here*/
 /* third parts starts here*/
 .part-3{
-    position: absolute;
+   position: relative;
 width: 1140px;
 height: 775px;
 left: 148px;
 right: 152px;
-top: 2340px;
-bottom: 2130px;
-border: 2px solid blue;
+top: 90px;
+bottom: 150px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -259,3 +258,116 @@ border-radius: 16px;
 }
 /*third page ends here*/
 /*fourth part starts here*/
+.part-4{
+position: relative;
+width: 1140px;
+height: 460px;
+left: 148px;
+right: 152px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 111px 0px;
+}
+.flexbox{
+position: relative;
+width: 1140px;
+height: 299px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px;
+}
+.flex1{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: none;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.flex11{
+position: static;
+width: 284px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content:left;
+align-items: flex-start;
+padding: 0px;
+}
+.pic2{
+    width: 39.68px;
+height: 45px;
+left: 8.16px;
+top: 11px;
+}
+.txt7{
+    color: rgb(13, 19, 33);
+font-size: 25px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+}
+.txt8{
+    color: rgb(13, 19, 33);
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.txt9{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-top: 24px;
+}
+.flex2{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: none;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.flex3{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    flex: none;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/*part-4 ends here*/
+/*part-5 stars here*/
