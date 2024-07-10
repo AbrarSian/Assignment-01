@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Azeret Mono", monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.first-page{
+    width: 1440px;
+    height: 652px;
+    background-image: url(./assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.part-1{
+    position: absolute; 
+    width: 998px;
+    height: 581px;
+    left: 221px;
+    right: 221px;
+    top: 26px;
+    bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.content-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pic-1{
+    width: 240.28px;
+    height: 240px;
+}
+.txt1{
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.txt2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.fun-with-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/*second page starts here*/
+.part-2{
+    position: relative;
+    width: 1140px;
+    height: 1393px;
+    left: 148px;    
+    right: 152px;
+    top: 74px;
+    bottom: 90px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+
+background-color: rgba(13, 19, 33, 0.02);
+}
+.content-2{
+width: 946px;
+height: 1233px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.txt3{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.txt4{
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.content-21{
+width: 946px;
+height: 336px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+}
+.content-211{
+width: 850px;
+height: 240px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+.lefty1{
+    width: 477px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+.txt5{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.txt6{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+.typo1{
+    width: 171px;
+height: 47px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+margin-top: 32px;
+
+}
+.righty1{
+width: 259.56px;
+height: 217.01px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+background-image: url(./assets/Layer_1.png);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.lefty2{
+position: relative;
+width: 240px;
+height: 240px;
+background-image: url(./assets/Group\ 3.png);
+background-position: center;
+background-repeat: no-repeat;
+}
+.righty2{
+    width: 477px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+.righty3{
+    width: 259.56px;
+height: 217.01px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+background-image: url(./assets/Group\ 4.png);
+background-position: center;
+background-repeat: no-repeat;
+}
+/*second part ends here*/
+/* third parts starts here*/
